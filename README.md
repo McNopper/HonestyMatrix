@@ -2,11 +2,11 @@
 
 *by Norbert Nopper*
 
-### When you tell the truth, do you know it?
+### When you tell the truth, do you know or believe it?
 
 ## Credits
 
-Thanks a lot to everyone who supported me on this path of knowledge. 
+Thanks a lot to everyone who supported me on this path. 
 
 ## The Four States of Honesty
 
