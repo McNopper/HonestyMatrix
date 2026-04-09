@@ -4,6 +4,8 @@
 
 ### When you tell the truth, do you know or believe it?
 
+Epistemology studies the nature of knowledge and belief — in particular, what distinguishes *knowing* something from merely *believing* it.
+
 ## Credits
 
 Thanks a lot to everyone who supported me on this path. 
@@ -13,7 +15,7 @@ Thanks a lot to everyone who supported me on this path.
 |           | Consciously                   | Unconsciously                                   |
 |-----------|-------------------------------|-------------------------------------------------|
 | **Truth** | Consciously telling the truth | Unconsciously telling the truth (Freudian slip) |
-| **Lie**   | Deliberately lying            | Unconsciously lying (White lie) \*\*            |
+| **Lie**   | Deliberately lying            | Unconsciously lying (White lie)                 |
 
 ### Explanation
 
@@ -30,6 +32,9 @@ Thanks a lot to everyone who supported me on this path.
 
 Consciousness  
 https://en.wikipedia.org/wiki/Consciousness
+
+Epistemology  
+https://en.wikipedia.org/wiki/Epistemology
 
 Freudian Slip  
 https://en.wikipedia.org/wiki/Freudian_slip
