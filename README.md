@@ -4,7 +4,7 @@
 
 ### When you tell the truth, do you know or believe it?
 
-Epistemology studies the nature of knowledge and belief — in particular, what distinguishes *knowing* something from merely *believing* it.
+Epistemology studies the nature of knowledge and belief — in particular, what distinguishes *knowing* something from merely *believing* it. The Honesty Matrix below explores a related dimension: whether one is *conscious* or *unconscious* of the truth or untruth being told.
 
 ## Credits
 
@@ -20,7 +20,7 @@ Thanks a lot to everyone who supported me on this path.
 ### Explanation
 
 - Consciously telling the truth - One wants to tell the truth on purpose.
-- Deliberately lying - One does not want to tell the truth on purpose.  
+- Deliberately lying - One chooses to tell a lie on purpose.  
 - Unconsciously telling the truth - One is not aware of telling the truth \*.
 - Unconsciously lying - One is not aware of the untruth being told \*\*.
 
@@ -40,4 +40,5 @@ Freudian Slip
 https://en.wikipedia.org/wiki/Freudian_slip
 
 White lie  
-https://en.wikipedia.org/wiki/White_lie_(disambiguation)
+https://en.wikipedia.org/wiki/White_lie
+
