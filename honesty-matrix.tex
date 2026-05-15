@@ -1,0 +1,441 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdftitle={The Honesty Matrix: A Stipulative Two-Dimensional Typology of Truthful and Untruthful Utterances},
+    pdfauthor={Norbert Nopper},
+    pdfsubject={Philosophy of language; epistemology; typology of assertion}
+}
+
+\title{The Honesty Matrix:\\A Stipulative Two-Dimensional Typology\\of Truthful and Untruthful Utterances}
+\author{Norbert Nopper}
+\date{Version 1.0 --- 14 May 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+We propose the \emph{Honesty Matrix}, a compact $2\times 2$ typology that
+classifies declarative utterances along two independent axes: (i) the
+\emph{truth-value} of the utterance with respect to the actual state of
+affairs, and (ii) the speaker's \emph{awareness} of the full epistemic and
+consequential status of that utterance at the moment of speaking. The
+model is presented as a \emph{stipulative} framework, not as a
+redefinition of the philosophical notion of lying. It is intended to
+organise familiar phenomena --- sincere truth-telling, deliberate
+deception, the Freudian slip, the white lie, the honest mistake, and
+Frankfurtian bullshit --- inside a single, explicit structure. We give
+precise working definitions, place the framework relative to existing
+accounts in philosophy of lying and psychoanalysis, work each cell
+through with examples, sketch a minimal operationalisation, and state
+the model's limitations.
+\end{abstract}
+
+\noindent\textbf{Keywords:} honesty, lying, deception, sincerity,
+accuracy, consciousness, self-deception, Freudian slip, bullshit,
+typology.
+
+\section{Introduction}
+
+Standard philosophical analyses of lying require three elements: the
+speaker makes a statement, believes it to be false, and intends to
+deceive the hearer~\cite{augustine,bok1978,mahon2016sep,carson2010}. This
+belief-centred account captures the paradigmatic lie but leaves several
+familiar phenomena underdescribed: utterances whose truth-value the
+speaker has not consciously considered (e.g.\ slips of the
+tongue~\cite{freud1901}); utterances whose content is technically true
+but produced without deliberate intent; ``socially benign'' falsehoods
+whose downstream consequences are unknown~\cite{bok1978}; assertions
+produced with indifference to truth~\cite{frankfurt2005}; and deceptive
+communication achieved without uttering any literal
+falsehood~\cite{saul2012,grice1975}.
+
+This paper does not contest the standard definition of lying. Instead,
+it introduces a \emph{descriptive typology of utterances} --- the
+Honesty Matrix --- that adds an explicit \emph{awareness} dimension to
+the truth-value axis already implicit in the literature. The matrix is
+stipulative: its cells are defined by the axes, not by appeal to
+ordinary usage. Its purpose is taxonomic clarity rather than conceptual
+revision.
+
+The closest precursor is Williams's distinction between the two
+``virtues of truth'': \emph{Sincerity} (saying what one believes) and
+\emph{Accuracy} (taking due care that one's beliefs are
+true)~\cite{williams2002}. The Honesty Matrix can be read as a
+discretised cousin of that view: the content axis tracks accuracy of
+the utterance, while the awareness axis tracks something closely
+related to --- though broader than --- sincerity. Related contemporary
+treatments include Carson's~\cite{carson2010} warranting account of
+lying, Sorensen's~\cite{sorensen2007} discussion of bald-faced lies,
+and Stokke's~\cite{stokke2018} insincerity-based analysis. The present
+contribution is the explicit $2\times 2$ tabulation, the
+acknowledgement of an \emph{unconscious} mode of utterance on the
+speaker's side, and the mapping of familiar phenomena onto the
+resulting four cells.
+
+\section{Definitions}
+
+We adopt the following working definitions. They are stipulative within
+this paper; alternative definitions exist and are discussed in
+Section~\ref{sec:limits}.
+
+\begin{description}
+  \item[\textbf{Utterance.}] A declarative statement made by a speaker
+        with assertoric force.
+  \item[\textbf{Truth-value (content axis).}] An utterance is
+        \emph{true} if it corresponds to the actual state of affairs,
+        and \emph{false} otherwise. We use ``lie'' in this paper as a
+        short label for ``false utterance'' --- a deliberate
+        terminological simplification that diverges from the
+        philosophical mainstream (cf.\ Section~\ref{sec:limits}).
+        Correspondence is assumed only as a working assumption.
+  \item[\textbf{Awareness (epistemic axis).}] A speaker is
+        \emph{conscious} of an utterance when, at the moment of
+        speaking, they have deliberate access to (a) its intended
+        content, (b) its truth-value relative to their own beliefs,
+        and (c) its foreseeable consequences. If any of these is
+        absent, the speaker is, to that extent, \emph{unconscious} of
+        the utterance.
+\end{description}
+
+\noindent
+Two notes on the awareness axis. First, ``unconscious'' is used in a
+broad psychological sense (lack of deliberate access), not strictly the
+Freudian technical sense; it is closer to Block's notion of failure of
+\emph{access consciousness}~\cite{block1995}. Second, awareness is
+treated as binary here for classificatory simplicity; a graded version
+is a natural extension and is briefly discussed in
+Section~\ref{sec:limits}.
+
+\section{The Matrix}
+
+Crossing the two axes yields the four cells in Table~\ref{tab:matrix}.
+Each cell name is a label internal to this paper; correspondences to
+ordinary language are discussed in Section~\ref{sec:phenomena} and
+illustrated by examples in Section~\ref{sec:examples}.
+
+\begin{table}[h]
+\centering
+\caption{The Honesty Matrix.}
+\label{tab:matrix}
+\begin{tabular}{lll}
+\toprule
+            & \textbf{Conscious}            & \textbf{Unconscious} \\
+\midrule
+\textbf{True}  & Sincere truth-telling      & Unintended truth \\
+\textbf{False} & Deliberate lie             & Unwitting falsehood \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{description}
+  \item[\textbf{Sincere truth-telling.}] The utterance is true, and the
+        speaker has deliberate access to its content, truth-value, and
+        likely consequences. This is the prototype of honesty.
+  \item[\textbf{Deliberate lie.}] The utterance is false, and the
+        speaker is aware of its falsity and of its intended deceptive
+        function. This matches the standard philosophical definition of
+        lying~\cite{mahon2016sep,carson2010}.
+  \item[\textbf{Unintended truth.}] The utterance is true, but the
+        speaker did not deliberately intend to assert it as such ---
+        e.g.\ a slip of the tongue that happens to state a fact, or an
+        offhand remark that turns out to be veridical.
+  \item[\textbf{Unwitting falsehood.}] The utterance is false, but the
+        speaker lacks full deliberate access to its falsity, its
+        consequences, or both. The clearest occupants are sincere
+        errors and certain forms of self-deception~\cite{mele2001}.
+\end{description}
+
+\section{Mapping Familiar Phenomena}
+\label{sec:phenomena}
+
+\subsection{Freudian slip $\to$ Unintended truth}
+A parapraxis, in psychoanalytic theory, is a verbal error read as the
+surfacing of unconscious material~\cite{freud1901}. Independently of
+whether one accepts the psychoanalytic mechanism, the linguistic
+structure of such slips fits the \emph{unintended truth} cell whenever
+the slip happens to state something the speaker would not have
+deliberately asserted but which is, in fact, the case. We make no claim
+about the empirical frequency or psychological cause of such slips.
+
+\subsection{Honest mistake and self-deception $\to$ Unwitting falsehood}
+A speaker who sincerely asserts a falsehood they believe to be true is
+classified here as producing an \emph{unwitting falsehood}. The same
+cell hosts cases of self-deception, in which a speaker sincerely
+asserts what, on some deeper level, they have reason to doubt or
+disbelieve~\cite{mele2001}.
+
+\subsection{The white lie: a boundary case}
+The \emph{white lie} is conventionally a falsehood the speaker knows to
+be false but believes to be socially harmless~\cite{bok1978}. Under the
+definitions adopted here it sits \emph{between} the deliberate lie (the
+speaker is aware of the falsity) and the unwitting falsehood (the
+speaker is typically unaware of the lie's full long-term consequences).
+It is therefore best treated as a boundary case rather than a clean
+occupant of either cell. The matrix does not aim to dissolve this
+tension; it makes it explicit.
+
+\subsection{Bullshit: a phenomenon the matrix does not capture}
+Frankfurt's~\cite{frankfurt2005} bullshitter is characterised by
+\emph{indifference} to truth-value, not by unawareness of it. Bullshit
+is therefore not a clean occupant of any cell of the present matrix: it
+represents a third epistemic stance --- neither believing-true nor
+believing-false --- and would require a richer awareness axis (or an
+explicit ``indifference'' attitude) to be modelled directly. We note
+this as a known incompleteness of the model.
+
+\subsection{Deception without lying}
+A speaker can deceive while uttering only true sentences --- through
+conversational implicature, selective emphasis, misleading omission, or
+strategic silence~\cite{grice1975,saul2012}. Such cases lie outside the
+scope of the matrix: the literal-content axis cannot capture them. The
+matrix is best read as covering \emph{assertoric} dishonesty, not the
+wider category of \emph{deceptive communication}.
+
+\subsection{Irony, fiction, and performatives}
+Ironic, fictional, and performative utterances have literal contents
+whose truth-value diverges from what is asserted. We follow standard
+practice~\cite{grice1975} in treating these as cases in which
+assertoric force is suspended or shifted; they fall outside the matrix
+because no straightforward truth-value evaluation of the literal
+content applies.
+
+\section{Worked Examples}
+\label{sec:examples}
+
+The following four examples instantiate one occupant of each cell. They
+are illustrative, not empirical.
+
+\begin{description}[style=nextline]
+  \item[\textbf{Sincere truth-telling (True, Conscious).}]
+    A witness on the stand, having clearly recalled an event and
+    intending to convey what they remember, states, ``The car was
+    red.'' The car was, in fact, red.
+  \item[\textbf{Deliberate lie (False, Conscious).}]
+    A defendant, knowing he was at the scene, states, ``I was at home
+    that evening,'' intending the court to believe him.
+  \item[\textbf{Unintended truth (True, Unconscious).}]
+    A spouse means to say ``I'll be at the office'' but accidentally
+    says ``I'll be at the bar.'' They are, in fact, going to the bar,
+    though they did not consciously intend to disclose this.
+  \item[\textbf{Unwitting falsehood (False, Unconscious).}]
+    A speaker confidently asserts ``The capital of Australia is
+    Sydney,'' sincerely believing it, unaware that the capital is
+    Canberra.
+\end{description}
+
+\section{Operationalisation}
+
+The matrix is conceptual, but a minimum procedure for assigning a given
+utterance $u$ produced by speaker $S$ to a cell can be stated:
+
+\begin{enumerate}
+  \item Determine the truth-value of $u$ relative to the actual state
+        of affairs. If unavailable, cell assignment along the content
+        axis is suspended and the matrix is silent on $u$ until
+        further evidence is obtained.
+  \item Determine, from $S$'s subsequent reports, behaviour, and
+        background beliefs, whether $S$ had deliberate access to (a)
+        the intended content of $u$, (b) its truth-value relative to
+        $S$'s own beliefs, and (c) its foreseeable consequences. Full
+        deliberate access on all three places $u$ in the conscious
+        row; failure on any one places $u$ in the unconscious row.
+  \item If $u$ is non-assertoric (ironic, fictional, performative) or
+        achieves its communicative effect via implicature rather than
+        literal content, mark $u$ as out of scope.
+\end{enumerate}
+
+\noindent
+The procedure is fallible: step~2 depends on testimony or inference
+about a speaker's mental state, which is rarely decisive, and any
+graded notion of awareness will yield borderline cases. The procedure
+nevertheless makes the matrix's cell assignments in principle
+checkable rather than purely declarative.
+
+\section{Discussion}
+
+Three observations follow from the matrix.
+
+\paragraph{Honesty is not one-dimensional.} Two utterances with
+identical truth-value can occupy different cells depending on the
+speaker's awareness; two utterances at the same awareness level can
+differ in truth-value. Any single-axis evaluation of ``honesty''
+therefore omits information.
+
+\paragraph{Truth can be incidental.} The \emph{unintended truth} cell
+shows that veridical speech is not, by itself, evidence of deliberate
+honesty.
+
+\paragraph{Sincere assertion does not guarantee truth.} The
+\emph{unwitting falsehood} cell shows the converse: deliberate honesty
+is not evidence of veridical speech. Both observations are consistent
+with the standard epistemological distinction between knowledge and
+justified belief, and with knowledge-norm accounts of
+assertion~\cite{williamson2000}.
+
+\section{Limitations and Scope}
+\label{sec:limits}
+
+The matrix is deliberately narrow. The following limitations apply.
+
+\begin{enumerate}
+  \item \textbf{Stipulative definitions.} The use of ``lie'' for any
+        false utterance (rather than a belief-and-intent-laden notion)
+        is a terminological choice for this paper. Readers preferring
+        the standard definition can substitute ``false utterance'' for
+        ``lie'' throughout without loss.
+  \item \textbf{Binary axes.} Truth-value and awareness are both
+        treated as binary. Real cases are graded (partial truths,
+        partial awareness); the binary form is a simplification.
+        Graded axes would yield a continuous version of the
+        matrix~\cite{block1995}.
+  \item \textbf{Correspondence assumption.} The content axis assumes a
+        correspondence-style notion of truth. Coherence- or
+        pragmatist-style accounts would reshape the content axis but
+        leave the awareness axis intact.
+  \item \textbf{Partial axis coupling.} The axes are presented as
+        independent, but ``deliberate lie'' presupposes awareness of
+        falsity by definition. The independence claim is therefore
+        descriptive, not strictly logical.
+  \item \textbf{Assertoric scope.} The matrix covers declarative
+        assertions only. Lying by omission, misleading implicature,
+        irony, fiction, and performative utterances fall outside its
+        scope~\cite{saul2012,grice1975}.
+  \item \textbf{Indifference not modelled.} Frankfurtian
+        bullshit~\cite{frankfurt2005} --- assertion without regard to
+        truth --- is not captured by a binary awareness axis.
+  \item \textbf{No empirical claims.} The mapping of Freudian slips,
+        white lies, and self-deception to particular cells is
+        conceptual, not empirical. No claim is made about how often
+        such utterances occur or about their underlying psychological
+        mechanisms.
+  \item \textbf{Moral neutrality.} The matrix classifies utterances;
+        it does not assign blame or praise. Moral evaluation typically
+        depends on awareness, but is left to ethical theory.
+\end{enumerate}
+
+\section{Conclusion}
+
+The Honesty Matrix is a small, explicit, stipulative typology. It
+crosses the truth-value of an utterance with the speaker's awareness of
+that utterance's status and identifies four cells: \emph{sincere
+truth-telling}, \emph{unintended truth}, \emph{deliberate lie}, and
+\emph{unwitting falsehood}. Familiar phenomena --- the Freudian slip,
+the honest mistake, the white lie, and Frankfurtian bullshit --- can be
+located, partially located, or explicitly recognised as out of scope
+within this structure. The framework is offered as an organising tool,
+compatible with rather than competing against established accounts of
+lying, deception, self-deception, and parapraxis, and its limitations
+are stated openly.
+
+\section*{Acknowledgements}
+
+Thanks to everyone who supported the development of this idea.
+
+\section*{License}
+
+This paper is released under the
+\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons
+Attribution 4.0 International (CC BY 4.0)} license. You are free to
+share and adapt the material for any purpose, including commercially,
+provided appropriate credit is given. See the \texttt{LICENSE} file in
+the source repository for the full text.
+
+\begin{thebibliography}{99}
+
+\bibitem{augustine}
+Augustine of Hippo (c.~395).
+\emph{De Mendacio} [\emph{On Lying}].
+Reprinted in: \emph{Treatises on Various Subjects}, R. J. Deferrari
+(ed.), Catholic University of America Press, 1952.
+
+\bibitem{block1995}
+Block, N. (1995).
+On a confusion about a function of consciousness.
+\emph{Behavioral and Brain Sciences}, 18(2), 227--247.
+
+\bibitem{bok1978}
+Bok, S. (1978).
+\emph{Lying: Moral Choice in Public and Private Life.}
+Pantheon Books, New York.
+
+\bibitem{carson2010}
+Carson, T. L. (2010).
+\emph{Lying and Deception: Theory and Practice.}
+Oxford University Press.
+
+\bibitem{frankfurt2005}
+Frankfurt, H. G. (2005).
+\emph{On Bullshit.}
+Princeton University Press.
+
+\bibitem{freud1901}
+Freud, S. (1901).
+\emph{Zur Psychopathologie des Alltagslebens}
+[\emph{The Psychopathology of Everyday Life}].
+Karger, Berlin.
+
+\bibitem{grice1975}
+Grice, H. P. (1975).
+Logic and conversation.
+In: P. Cole \& J. L. Morgan (eds.),
+\emph{Syntax and Semantics, Vol.~3: Speech Acts},
+Academic Press, pp.~41--58.
+
+\bibitem{mahon2016sep}
+Mahon, J. E. (2016).
+\emph{The Definition of Lying and Deception.}
+The Stanford Encyclopedia of Philosophy (Winter 2016 ed.),
+E. N. Zalta (ed.).
+\url{https://plato.stanford.edu/archives/win2016/entries/lying-definition/}
+
+\bibitem{mele2001}
+Mele, A. R. (2001).
+\emph{Self-Deception Unmasked.}
+Princeton University Press.
+
+\bibitem{saul2012}
+Saul, J. M. (2012).
+\emph{Lying, Misleading, and What is Said: An Exploration in Philosophy
+of Language and in Ethics.}
+Oxford University Press.
+
+\bibitem{sorensen2007}
+Sorensen, R. (2007).
+Bald-faced lies! Lying without the intent to deceive.
+\emph{Pacific Philosophical Quarterly}, 88(2), 251--264.
+
+\bibitem{stokke2018}
+Stokke, A. (2018).
+\emph{Lying and Insincerity.}
+Oxford University Press.
+
+\bibitem{williams2002}
+Williams, B. (2002).
+\emph{Truth and Truthfulness: An Essay in Genealogy.}
+Princeton University Press.
+
+\bibitem{williamson2000}
+Williamson, T. (2000).
+\emph{Knowledge and Its Limits.}
+Oxford University Press.
+
+\end{thebibliography}
+
+\end{document}

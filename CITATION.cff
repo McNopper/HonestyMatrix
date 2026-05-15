@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Honesty Matrix: A Stipulative Two-Dimensional Typology of Truthful and Untruthful Utterances"
+authors:
+  - family-names: "Nopper"
+    given-names: "Norbert"
+version: "1.0"
+date-released: "2026-05-14"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/McNopper/HonestyMatrix"
+type: article
+keywords:
+  - honesty
+  - lying
+  - deception
+  - sincerity
+  - accuracy
+  - consciousness
+  - self-deception
+  - Freudian slip
+  - bullshit
+  - typology
